@@ -1,0 +1,97 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+**/.env
+
+# Backend specific (my-app-backend)
+my-app-backend/dev.db
+my-app-backend/dev.db-journal
+my-app-backend/prisma/dev.db
+my-app-backend/prisma/*.db
+my-app-backend/prisma/*.db-journal
+my-app-backend/dist/
+my-app-backend/build/
+
+# Mobile app specific (my-app)
+my-app/.expo/
+my-app/.expo-shared/
+my-app/dist/
+my-app/web-build/
+
+# Expo
+.expo/
+.expo-shared/
+expo-env.d.ts
+
+# React Native
+my-app/android/
+my-app/ios/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Build outputs
+build/
+dist/
+out/
+
+# Package manager lock files
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# OS specific
+.AppleDouble
+.LSOverride
+._*
+
+# Debug
+.expo-debug.log
